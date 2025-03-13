@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carros de Carreras</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #222;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff0000;
+            padding: 15px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+        .gallery img {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+        .car-info {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #333;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>🚗 Carros de Carreras 🚗</header>
+
+<div class="container">
+    <h2>Bienvenido a la Galería de Autos de Carreras</h2>
+    <p>Descubre algunos de los autos más veloces del mundo.</p>
+
+    <div class="gallery">
+        <img src="Carro1.jpg" alt="Ferrari F1">
+        <img src="Carro2" alt="Mercedes F1">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Red_Bull_RB16B_Max_Verstappen_2021_British_GP.jpg" alt="Red Bull Racing">
+    </div>
+
+    <div class="car-info">
+        <h3>Datos interesantes</h3>
+        <p>Los autos de Fórmula 1 pueden alcanzar velocidades de más de 350 km/h y generan una fuerza aerodinámica increíble que los mantiene pegados al suelo.</p>
+    </div>
+</div>
+
+</body>
+</html>
